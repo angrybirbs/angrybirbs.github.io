@@ -80,7 +80,6 @@ body{
 @media only screen and (max-width: 450px){
 	.next-birb{
 		font-size: 500%;
-		bottom: -1%;
 	}
 }
 
