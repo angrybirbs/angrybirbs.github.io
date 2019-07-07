@@ -1,0 +1,70 @@
+html,body{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+}
+
+body{
+	background-image: url("idunno.png");
+}
+
+.github{
+	transition: filter 0.15s linear;
+	display: inline-block;
+}
+
+.github:hover{
+	filter: hue-rotate(30deg);
+	cursor: pointer;
+}
+
+.birb{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: auto;
+	max-width: 75vw;
+	max-height: 50vh;
+	border: 1px solid black;
+	box-shadow: 2px 2px 2px black;
+}
+
+.download{
+	text-decoration: none;
+}
+
+.button{
+	display: inline-block;
+	position: absolute;
+	bottom: 1%;
+	left: 1%;
+	background-color: #222;
+	border-radius: 5px;
+	text-align: center;
+	font-size: 120%;
+	transition: color 0.15s linear;
+	transition: background-color 0.15s linear;
+	color: grey;
+	box-shadow: 2px 2px 2px #222;
+}
+
+.button:hover{
+	color: blue;
+	background-color: #223;
+}
+
+.next-birb{
+	font-size: 400%;
+	transition: color 0.15s linear;
+	display: inline-block;
+	position: absolute;
+	bottom: 0;
+	right: 1%;
+	text-shadow: 1px 2px 1px #222;
+}
+
+.next-birb:hover{
+	color: #900;
+	cursor: pointer;
+}
