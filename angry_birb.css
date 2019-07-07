@@ -14,6 +14,12 @@ body{
 	display: inline-block;
 }
 
+@media only screen and (max-width: 450px){
+	.github{
+		height: 20%;
+	}
+}
+
 .github:hover{
 	filter: hue-rotate(30deg);
 	cursor: pointer;
@@ -49,6 +55,12 @@ body{
 	box-shadow: 2px 2px 2px #222;
 }
 
+@media only screen and (max-width: 450px){
+	.button{
+		font-size: 150%;
+	}
+}
+
 .button:hover{
 	color: blue;
 	background-color: #223;
@@ -62,6 +74,13 @@ body{
 	bottom: 0;
 	right: 1%;
 	text-shadow: 1px 2px 1px #222;
+}
+
+@media only screen and (max-width: 450px){
+	.next-birb{
+		font-size: 500%;
+		bottom: -1%;
+	}
 }
 
 .next-birb:hover{
